@@ -1,13 +1,23 @@
-h1#header{
-    margin-left: 100px;
-    margin-right: 100px;
-    position: absolute;
-    top: 17px;
-    left: 455px;
-}
-
 body#general{
     background-image: url(../Tugas_2_[18081010059]/vintage-wallpaper.png);
+}
+
+div#background{
+    width: 1000px;
+    height: 1400px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-image: url(../Tugas_2_[18081010059]/webb.png);
+}
+
+h1#header{
+    position: absolute;
+    top: 17px;
+    left: 555px;
 }
 
 img#profilepict{
@@ -27,16 +37,4 @@ div#deskripsi{
     left: 550px;
     text-align: justify;
     text-justify: inter-word;
-}
-
-div#background{
-    width: 1000px;
-    height: 1400px;
-    border: 1px solid transparent;
-    position: absolute;
-    top: 0px;
-    left: 250px;
-    text-align: justify;
-    text-justify: inter-word;
-    background-image: url(../Tugas_2_[18081010059]/webb.png);
 }

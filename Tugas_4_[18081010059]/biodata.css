@@ -1,0 +1,291 @@
+body#umum{
+    background-color: #FBD283;
+    width: 1366px;
+    height: 768px;
+}
+
+div#container{
+    width: 1205px;
+    height: 664px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    background-color: #F76242;
+    box-shadow: 0px 0px 40px black;
+}
+
+div#segment{
+    width: 351px;
+    height: 664px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    background-color: #FBD283;
+}
+
+a#home{
+    width: 56px;
+    height: 24px;
+    top: 98px;
+    left: 716px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#biodata{
+    width: 73px;
+    height: 24px;
+    top: 98px;
+    left: 830px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#academic{
+    width: 94px;
+    height: 24px;
+    top: 98px;
+    left: 941px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#skills{
+    width: 52px;
+    height: 24px;
+    top: 98px;
+    left: 1084px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+svg#barbiodata{
+    width: 73px;
+    height: 12px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 110px;
+    left: 830px;
+    background-color: #388285;
+}
+
+img#avatarbio{
+    width: 227px;
+    height: 284px;
+    top: 159px;
+    left: 142px;
+    position: absolute;
+}
+
+p#name{
+    width: 441px;
+    height: 48px;
+    left: 447px;
+    top: 159px;
+    font-family: Swis721 BT;
+    font-size: 40px;
+    font-style: bold;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+p#pob{
+    width: 126px;
+    height: 24px;
+    left: 447px;
+    top: 289px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#dob{
+    width: 117px;
+    height: 24px;
+    left: 447px;
+    top: 343px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#gender{
+    width: 70px;
+    height: 24px;
+    left: 447px;
+    top: 397px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#religion{
+    width: 78px;
+    height: 24px;
+    left: 447px;
+    top: 451px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#address{
+    width: 79px;
+    height: 24px;
+    left: 447px;
+    top: 505px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#phone{
+    width: 61px;
+    height: 24px;
+    left: 447px;
+    top: 559px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#email{
+    width: 59px;
+    height: 24px;
+    left: 447px;
+    top: 613px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#isipob{
+    width: 297px;
+    height: 24px;
+    left: 630px;
+    top: 289px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#isidob{
+    width: 190px;
+    height: 24px;
+    left: 630px;
+    top: 343px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#isigender{
+    width: 46px;
+    height: 24px;
+    left: 630px;
+    top: 397px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#isireligion{
+    width: 51px;
+    height: 24px;
+    left: 630px;
+    top: 451px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#isiaddress{
+    width: 523px;
+    height: 24px;
+    left: 630px;
+    top: 505px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#isiphone{
+    width: 183px;
+    height: 24px;
+    left: 630px;
+    top: 559px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#isiemail{
+    width: 206px;
+    height: 24px;
+    left: 630px;
+    top: 613px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}

@@ -1,0 +1,255 @@
+body#umum{
+    background-color: #FBD283;
+    width: 1366px;
+    height: 768px;
+}
+
+div#container{
+    width: 1205px;
+    height: 664px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    background-color: #F76242;
+    box-shadow: 0px 0px 40px black;
+}
+
+div#segment{
+    width: 351px;
+    height: 664px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    background-color: #FBD283;
+}
+
+img#profpic{
+    width: 531px;
+    height: 531px;
+    top: 98px;
+    left: 145px;
+    position: absolute;
+}
+
+a#home{
+    width: 56px;
+    height: 24px;
+    top: 98px;
+    left: 716px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#biodata{
+    width: 73px;
+    height: 24px;
+    top: 98px;
+    left: 830px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#academic{
+    width: 94px;
+    height: 24px;
+    top: 98px;
+    left: 941px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#skills{
+    width: 52px;
+    height: 24px;
+    top: 98px;
+    left: 1084px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+svg#barhome{
+    width: 56px;
+    height: 12px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 110px;
+    left: 716px;
+    background-color: #388285;
+}
+
+svg#category1{
+    width: 167px;
+    height: 38px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 159px;
+    left: 752px;
+    background-color: #388285;
+    opacity: 50%;
+    border-radius: 3px;
+}
+
+svg#category2{
+    width: 167px;
+    height: 38px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 159px;
+    left: 935px;
+    background-color: #FBD283;
+    opacity: 50%;
+    border-radius: 3px;
+}
+
+p#category1{
+    width: 124px;
+    height: 24px;
+    position: absolute;
+    top: 146px;
+    left: 775px;
+    color: #FBD283;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+}
+
+p#category2{
+    width: 131px;
+    height: 24px;
+    position: absolute;
+    top: 146px;
+    left: 953px;
+    color: #707070;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+}
+
+p#profdesc{
+    width: 441px;
+    height: 48px;
+    left: 752px;
+    top: 200px;
+    font-family: Swis721 BT;
+    font-size: 40px;
+    font-style: bold;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+p#intro{
+    width: 472px;
+    height: 203px;
+    left: 752px;
+    top: 280px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+a#readmore{
+    width: 264px;
+    height: 53px;
+    left: 752px;
+    top: 425px;
+    font-family: Swis721 BT;
+    font-size: 40px;
+    font-style: bold;
+    color: white;
+    position: absolute;
+    font-style: normal;
+}
+
+p#findme{
+    width: 111px;
+    height: 24px;
+    left: 752px;
+    top: 535px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    position: absolute;
+}
+
+img#whatsapp{
+    width: 30px;
+    height: 30px;
+    top: 555px;
+    left: 881px;
+    position: absolute;
+}
+
+p#telepon{
+    width: 183px;
+    height: 24px;
+    left: 935px;
+    top: 537px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    position: absolute;
+}
+
+img#facebook{
+    width: 30px;
+    height: 30px;
+    top: 593px;
+    left: 881px;
+    position: absolute;
+}
+
+p#idfacebook{
+    width: 135px;
+    height: 24px;
+    left: 935px;
+    top: 575px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    position: absolute;
+}
+
+img#instagram{
+    width: 30px;
+    height: 30px;
+    top: 628px;
+    left: 881px;
+    position: absolute;
+}
+
+p#idinstagram{
+    width: 112px;
+    height: 24px;
+    left: 935px;
+    top: 609px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    position: absolute;
+}

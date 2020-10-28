@@ -1,0 +1,269 @@
+body#umum{
+    background-color: #FBD283;
+    width: 1366px;
+    height: 768px;
+}
+
+div#container{
+    width: 1205px;
+    height: 664px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    background-color: #F76242;
+    box-shadow: 0px 0px 40px black;
+}
+
+div#segment{
+    width: 351px;
+    height: 664px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 52px;
+    left: 80px;
+    background-color: #FBD283;
+}
+
+a#home{
+    width: 56px;
+    height: 24px;
+    top: 98px;
+    left: 716px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#biodata{
+    width: 73px;
+    height: 24px;
+    top: 98px;
+    left: 830px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#academic{
+    width: 94px;
+    height: 24px;
+    top: 98px;
+    left: 941px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+a#skills{
+    width: 52px;
+    height: 24px;
+    top: 98px;
+    left: 1084px;
+    position: absolute;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    color: #FBD283;
+    text-align: center;
+}
+
+svg#baracademic{
+    width: 94px;
+    height: 12px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 110px;
+    left: 941px;
+    background-color: #388285;
+}
+
+img#avataracademic{
+    width: 228px;
+    height: 133px;
+    top: 159px;
+    left: 142px;
+    position: absolute;
+}
+
+p#academic{
+    width: 441px;
+    height: 48px;
+    left: 447px;
+    top: 120px;
+    font-family: Swis721 BT;
+    font-size: 40px;
+    font-style: bold;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+img#line{
+    width: 5px;
+    height: 319px;
+    top: 256px;
+    left: 466px;
+    position: absolute;
+}
+
+img#ellipse1{
+    width: 15px;
+    height: 15px;
+    top: 248px;
+    left: 461px;
+    position: absolute;
+}
+
+img#ellipse2{
+    width: 24px;
+    height: 24px;
+    top: 292px;
+    left: 457px;
+    position: absolute;
+}
+
+img#ellipse3{
+    width: 24px;
+    height: 24px;
+    top: 363px;
+    left: 457px;
+    position: absolute;
+}
+
+img#ellipse4{
+    width: 24px;
+    height: 24px;
+    top: 434px;
+    left: 457px;
+    position: absolute;
+}
+
+img#ellipse5{
+    width: 24px;
+    height: 24px;
+    top: 505px;
+    left: 457px;
+    position: absolute;
+}
+
+img#ellipse6{
+    width: 15px;
+    height: 15px;
+    top: 567px;
+    left: 461px;
+    position: absolute;
+}
+
+p#tahunsd{
+    width: 45px;
+    height: 24px;
+    left: 511px;
+    top: 272px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#tahunsmp{
+    width: 45px;
+    height: 24px;
+    left: 511px;
+    top: 343px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#tahunsma{
+    width: 45px;
+    height: 24px;
+    left: 511px;
+    top: 414px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#tahunkuliah{
+    width: 45px;
+    height: 24px;
+    left: 511px;
+    top: 485px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: #FBD283;
+    position: absolute;
+}
+
+p#sd{
+    width: 301px;
+    height: 24px;
+    left: 512px;
+    top: 299px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#smp{
+    width: 171px;
+    height: 24px;
+    left: 512px;
+    top: 370px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#sma{
+    width: 172px;
+    height: 24px;
+    left: 512px;
+    top: 441px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+p#kuliah{
+    width: 249px;
+    height: 24px;
+    left: 512px;
+    top: 513px;
+    font-family: Swis721 BT;
+    font-size: 20px;
+    font-style: bold;
+    text-align: left;
+    color: white;
+    position: absolute;
+}

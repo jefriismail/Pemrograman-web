@@ -1,7 +1,7 @@
 CREATE TABLE contactPerson(
     id INT(2) AUTO_INCREMENT PRIMARY KEY,
     platform VARCHAR(20) NOT NULL,
-    username VARCHAR(20) NOT NULL
+    username VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE pendidikan(

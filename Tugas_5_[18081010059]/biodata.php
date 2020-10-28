@@ -1,4 +1,6 @@
 <?php
+    include ('connection.php');
+
     $title = 'Jefri Abdurrozak Ismail | Biodata';
     $avatar = './asset/Human.png';
     $name = 'Jefri Abdurrozak Ismail';
@@ -7,8 +9,14 @@
     $gender = 'Male';
     $religion = 'Islam';
     $address = 'Dukuh Kupang Gang Lebar 1A/15, Surabaya, Indonesia';
-    $phone = '+62 878-5563-0276';
-    $email = 'jefriismail@netcom.id';
+    $rtelepon = mysqli_query(connection(), "SELECT username FROM contactperson WHERE platform='telepon'");
+    $remail = mysqli_query(connection(), "SELECT username FROM contactperson WHERE platform='email'");
+    while ($row = $rtelepon->fetch_assoc()) {
+        $phone = $row['username']."<br>";
+    }
+    while ($row = $remail->fetch_assoc()) {
+        $email = $row['username']."<br>";
+    }
 ?>
 
 <html>

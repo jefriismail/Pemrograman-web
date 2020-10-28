@@ -10,14 +10,27 @@
     $ellipse4 = './asset/Ellipse 1.png';
     $ellipse5 = './asset/Ellipse 1.png';
     $ellipse6 = './asset/Ellipse 1.png';
-    $tahunsd = '2012';
-    $tahunsmp = '2015';
-    $tahunsma = '2018';
-    $tahunkuliah = 'Now';
-    $sd = 'SDN Putat Jaya V/381 Surabaya';
-    $smp = 'SMPN 4 Surabaya';
-    $sma = 'SMAN 6 Surabaya';
-    $kuliah = 'UPN "Veteran" Jawa Timur';
+    $jenjangsd = mysqli_query(connection(), "SELECT * FROM pendidikan WHERE jenjang='SD'");
+    $jenjangsmp = mysqli_query(connection(), "SELECT * FROM pendidikan WHERE jenjang='SMP'");
+    $jenjangsma = mysqli_query(connection(), "SELECT * FROM pendidikan WHERE jenjang='SMA'");
+    $jenjangs1 = mysqli_query(connection(), "SELECT * FROM pendidikan WHERE jenjang='S1'");
+
+    while ($row = $jenjangsd->fetch_assoc()) {
+        $sd = $row['nama']."<br>";
+        $tahunsd = $row['tahun']."<br>";
+    }
+    while ($row = $jenjangsmp->fetch_assoc()) {
+        $smp = $row['nama']."<br>";
+        $tahunsmp = $row['tahun']."<br>";
+    }
+    while ($row = $jenjangsma->fetch_assoc()) {
+        $sma = $row['nama']."<br>";
+        $tahunsma = $row['tahun']."<br>";
+    }
+    while ($row = $jenjangs1->fetch_assoc()) {
+        $kuliah = $row['nama']."<br>";
+        $tahunkuliah = $row['tahun']."<br>";
+    }
 ?>
 
 <html>

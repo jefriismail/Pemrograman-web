@@ -1,0 +1,10 @@
+CREATE DATABASE barokah;
+
+CREATE TABLE barokah.barang
+(
+    SKU VARCHAR(50) NOT NULL PRIMARY KEY,
+    nama VARCHAR(50) NOT NULL,
+    stok INT NOT NULL DEFAULT 0,
+    harga DECIMAL(19,2) NOT NULL,
+    kategori VARCHAR(50) NOT NULL
+);

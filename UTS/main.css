@@ -1,0 +1,138 @@
+body#general{
+    background-image: url(vintage-wallpaper.png);
+}
+
+div#background{
+    width: 1000px;
+    height: 100%;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: wheat;
+}
+
+h1#judul{
+    font-size: 75px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    position: absolute;
+    top: 17px;
+    left: 460px;
+}
+
+h1#judulinsert{
+    font-size: 75px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    position: absolute;
+    top: 17px;
+    left: 520px;
+}
+
+table#tabel{
+    position: absolute;
+    left: 415px;
+    top: 230px;
+    background-color: white;
+}
+
+a#insert{
+    position: absolute;
+    font-size: 25px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    left: 415px;
+    top: 190px;
+    border: 3px solid;
+}
+
+th#isitabel{
+    font-family: Swis721 BT;
+}
+
+td#isitabel{
+    font-family: Swis721 BT;
+}
+
+h3#SKU{
+    position: absolute;
+    font-family: Swis721 BT;
+    left: 550px;
+    top: 200px;
+}
+
+input#SKU{
+    position: absolute;
+    left: 775px;
+    top: 220px;
+}
+
+h3#nama{
+    position: absolute;
+    font-family: Swis721 BT;
+    left: 550px;
+    top: 250px;
+}
+
+input#nama{
+    position: absolute;
+    left: 775px;
+    top: 270px;
+}
+
+h3#stok{
+    position: absolute;
+    font-family: Swis721 BT;
+    left: 550px;
+    top: 300px;
+}
+
+input#stok{
+    position: absolute;
+    left: 775px;
+    top: 320px;
+}
+
+h3#harga{
+    position: absolute;
+    font-family: Swis721 BT;
+    left: 550px;
+    top: 350px;
+}
+
+input#harga{
+    position: absolute;
+    left: 775px;
+    top: 370px;
+}
+
+h3#kategori{
+    position: absolute;
+    font-family: Swis721 BT;
+    left: 550px;
+    top: 400px;
+}
+
+input#kategori{
+    position: absolute;
+    left: 775px;
+    top: 420px;
+}
+
+button#submit{
+    position: absolute;
+    left: 775px;
+    top: 470px;
+}
+
+h1#judulupdate{
+    font-size: 75px;
+    font-style: bold;
+    font-family: Swis721 BT;
+    position: absolute;
+    top: 17px;
+    left: 420px;
+}

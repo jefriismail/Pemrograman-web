@@ -1,0 +1,24 @@
+Halaman ADMIN
+1. CRUD
+
+berupa LIST
+1. Nama
+2. Foto
+
+Halaman Produk:
+1. Nama
+2. Deskripsi
+3. Foto
+4. DIrect e-commerce
+5. Review (*)
+
+Sorting
+Page1. Tipe Produk (Toner, pelembab, sunscreen, serum, pembersihwajah
+Page 2. Tipe Kulit (berminyak, kombinasi, kering) (oilfree, hydrate, exclude (bad for dry skin, oily skin))
+
+Halaman Hasil
+1. Produk yang ditemukan:
+
+Homepage
+1. Pengenalan tok (Nama web, Deskripsi web)
+2. Direct Sorting
